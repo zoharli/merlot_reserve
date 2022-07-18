@@ -43,6 +43,7 @@ pip uninstall numpy
 pip install numpy==1.19.5
 
 pip install -r requirements.txt
+conda install -c conda-forge ffmpeg
 ```
 
 You can then try out the interactive script at [demo/demo_video.py](demo/demo_video.py). It will handle downloading the model checkpoint for you.
